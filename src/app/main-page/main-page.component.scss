@@ -21,15 +21,39 @@
 
 }
 
-.total-budget {
+.total-budget-section {
     display: flex;
     height: 250px;
     background: $dark;
+
+    // align text
+    justify-content: center;
+    align-items: center;
 
     h2{
         font-family: 'Lato';
         font-weight: 300;
         font-size: 58px;
         color: white;
+
+        &.green {
+            color: lighten($green, 12%);
+        }
+
+        &.red {
+            color: lighten($red, 12%);
+        }
+    }
+}
+
+.add-item-section {
+    display: flex;
+
+    // align text
+    justify-content: center;
+    align-items: center;
+
+    .add-item-container{
+        width: 680px;
     }
 }
