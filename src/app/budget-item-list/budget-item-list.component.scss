@@ -33,14 +33,14 @@
         margin-right: 35px;
 
         h1 {
-            color: $green;
+            color: lighten($green, 6%);
         }
     }
 
     .expenses-column {
 
         h1 {
-            color: $red;
+            color: lighten($red, 6%);
         }
     }
 }
