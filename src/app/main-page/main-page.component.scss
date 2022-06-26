@@ -14,9 +14,9 @@
         font-family: 'Lato';
         font-size: 18px;
         letter-spacing: 1px;
-        font-weight: 900;
+        font-weight: 1000;
         text-transform: uppercase;
-        color: $dark;
+        color: lighten($dark, 12%);
     }
 
 }
